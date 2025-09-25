@@ -55,8 +55,6 @@ services](https://dlab.berkeley.edu/data), and check out upcoming
 date on D-Lab events, services, and opportunities.
 
 # Contributors
-* Bruno Cittolin Smaniotto
-* Tom Van Nuenen
 
 * Bruno Cittolin Smaniotto
 * Tom van Nuenen
