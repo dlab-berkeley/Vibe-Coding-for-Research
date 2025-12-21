@@ -14,18 +14,23 @@ Check out D-Lab’s [Workshop Catalog](https://dlab-berkeley.github.io/dlab-work
 
 ## Workshop Goals
 
-This hands-on workshop will teach you how to leverage AI for research, with practical demonstrations, real research examples, and comprehensive resource guides. You will learn to navigate the landscape of AI research tools from ChatGPT's Code Interpreter to specialized platforms like Perplexity for citations, understand the progression from simple chatbots to autonomous research agents, and discover how to build custom research tools without traditional programming. We'll explore both web-based interfaces and advanced coding environments, demonstrate multi-agent systems for complex research tasks, and address critical considerations including validation, testing, tokenization, and cost management. Participants will leave with a clear framework for choosing appropriate AI tools and practical strategies for integrating AI-powered coding into their research workflow.
+  This hands-on workshop will teach you how to leverage AI for research coding, with practical demonstrations and comprehensive validation strategies. You will learn the difference between browser-based AI chat interfaces and command-line tools that operate directly in your project environment, understand effective prompting techniques, and discover how to validate AI-generated code through multiple verification strategies. We'll walk through a complete live demo building linear regression from scratch, demonstrate five validation best practices, and address critical considerations including AI failure modes and limitations. Participants will leave with practical skills for using CLI-based AI tools and a robust validation workflow for ensuring the reliability and reproducibility of AI-assisted research code.
 
 ## Learning Objectives
 
-After completing this workshop, you will be able to:
+  After completing this workshop, you will be able to:
 
-* **Navigate and select appropriate AI research tools,** understanding the strengths of platforms like ChatGPT, Claude, Gemini, and Perplexity, and choosing between web interfaces, coding assistants, and autonomous agents based on your research needs.
-* **Use Perplexity and other AI tools for literature review,** generating properly cited academic sources, synthesizing research findings, and maintaining scholarly standards while leveraging AI for efficient literature discovery.
-* **Direct AI to generate and validate research code** through effective prompting, translating complex statistical analyses and data processing needs into natural language instructions that produce working, reproducible code.
-* **Build and orchestrate research agents,** including creating specialized subagents for tasks like data cleaning, statistical analysis, and paper drafting, understanding how to combine multiple AI systems for complex research workflows.
-* **Implement validation and testing strategies** for AI-generated code, using cross-validation with multiple models, testing on known datasets, and ensuring the reliability and reproducibility of your computational research.
-* **Understand tokenization and manage AI costs effectively,** calculating token usage for your research tasks, optimizing prompts to minimize costs, and developing a sustainable budget strategy for long-term AI tool usage in your research.
+  1. **Install and configure Gemini CLI** on Windows, Mac, or Linux, including setting up the GEMINI.md file to provide persistent project context and coding conventions to the AI.
+
+  2. **Distinguish between CLI and browser-based AI tools**, understanding when to use command-line tools (multi-file projects, iterative testing, autonomous execution) versus web interfaces (quick questions, concept explanation, simple snippets).
+
+  3. **Write effective prompts using the CLEAR and CONTEXT frameworks**, crafting specific, contextual instructions that include validation requirements and avoid ambiguity that leads to AI shortcuts or errors.
+
+  4. **Identify and prevent "sneaky" AI behavior**, recognizing when AI substitutes synthetic data, swaps to simpler models, fabricates results, or silently skips errors—and implementing verification strategies to catch these issues.
+
+  5. **Apply five validation best practices for AI-generated research code**: synthetic data validation (testing with known parameters), theoretical validation (verifying statistical properties), cross-AI validation (getting second opinions), unit test generation (automated edge case testing), and code restructuring with documentation.
+
+  6. **Recognize the limitations of AI coding assistants**, understanding when not to trust AI code (security-critical applications, novel research methods, domain-specific edge cases) and common failure modes including hallucinated functions, outdated approaches, and subtle logic errors
 
 
 ## Installation Instructions
