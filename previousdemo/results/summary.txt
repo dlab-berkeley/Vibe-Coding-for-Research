@@ -1,0 +1,23 @@
+==============================================================================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.512
+Model:                            OLS   Adj. R-squared:                  0.507
+No. Observations:                100    
+==============================================================================
+                coef       std err    t          P>|t|      [0.025     0.975]    
+------------------------------------------------------------------------------
+const           42.7741    2.037      20.993     0.000      38.781     46.768    
+x1              5.7306     0.565      10.139     0.000      4.623      6.838     
+==============================================================================
+
+Interpretation Report:
+
+Model Fit:
+The linear regression model explains approximately 51.2% of the variability in productivity scores (R-squared = 0.512). This indicates a moderate to strong relationship between coffee consumption and productivity, suggesting that while coffee intake is a significant factor, other unmeasured variables also contribute substantially to the differences in productivity scores.
+
+Coefficients:
+The model estimates a baseline productivity score of 42.77 when no coffee is consumed (intercept). For every additional cup of coffee consumed, the productivity score increases by an average of 5.73 points. This positive coefficient suggests a direct correlation where higher coffee consumption is associated with higher reported productivity within the observed range.
+
+Statistical Significance:
+Both the intercept and the coefficient for coffee cups are statistically significant, with p-values of 0.000 (less than 0.05). This confirms that the relationship observed is unlikely to be due to random chance. The confidence interval for the coffee impact suggests the true effect lies between 4.62 and 6.84 points per cup with 95% confidence.
