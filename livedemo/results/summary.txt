@@ -1,0 +1,20 @@
+==============================================================================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.512
+Model:                            OLS   Adj. R-squared:                  0.507
+No. Observations:                 100   MSE:                          2.235e+00
+==============================================================================
+                      coef    std err          t      P>|t|
+------------------------------------------------------------------------------
+const              42.7741     2.0375     20.993      0.000
+x1                  5.7306     0.5652     10.139      0.000
+==============================================================================
+
+Analysis Report:
+
+The regression analysis reveals a significant positive relationship between coffee consumption and productivity. The model estimates a baseline productivity score of approximately 42.8 (the intercept) when no coffee is consumed. For each additional cup of coffee, the productivity score is predicted to increase by roughly 5.73 points, as indicated by the 'x1' coefficient.
+
+The model's goodness of fit is moderate, with an R-squared value of 0.512. This implies that approximately 51.2% of the variability in productivity scores can be explained by the number of coffee cups consumed. While this demonstrates a strong trend, nearly half of the variance remains unexplained, suggesting that other factors not included in this simple model also significantly influence productivity.
+
+Statistically, both the intercept and the coefficient for coffee cups are highly significant, with p-values effectively zero (P>|t| = 0.000). This indicates that the observed relationship is very unlikely to be a result of random chance, providing strong evidence that increased coffee consumption is associated with higher productivity scores within the range of data observed.
